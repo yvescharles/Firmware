@@ -24,6 +24,7 @@ set(config_module_list
 
 	drivers/batt_smbus
 	drivers/camera_trigger
+	drivers/camera_capture
 	drivers/gps
 	drivers/imu/adis16477
 	#drivers/imu/adis16497
