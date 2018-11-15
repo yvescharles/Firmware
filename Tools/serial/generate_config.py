@@ -108,6 +108,13 @@ serial_ports = {
         "default_baudrate": 0,
         },
 
+    # ESP
+    "ESP": {
+        "label": "ESP",
+        "index": 301,
+        "default_baudrate": 921600,
+        },
+
     }
 
 parser = argparse.ArgumentParser(description='Generate Serial params & startup script')

@@ -12,6 +12,7 @@ px4_add_board(
 
 	SERIAL_PORTS
 		GPS1:/dev/ttyS3
+		ESP:/dev/ttyS0
 		TEL1:/dev/ttyS1
 		TEL2:/dev/ttyS2
 
