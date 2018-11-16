@@ -302,6 +302,13 @@ then
 		# BMI160 internal SPI bus
 		bmi160 start
 	fi
+
+	# teal one special case (TODO: find a better way to do this)
+	if param compare SYS_AUTOSTART 4250
+	then
+		mpu9250 -s -R 14 start
+		mpu9250 -t -R 14 start
+	fi
 fi
 
 if ver hwcmp PX4_FMU_V4PRO
